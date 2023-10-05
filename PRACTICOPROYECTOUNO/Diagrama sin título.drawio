@@ -1,0 +1,79 @@
+<mxfile host="Electron" modified="2023-10-05T00:17:41.023Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="AFFv98gQ_G4KlaxDK-sK" version="21.2.8" type="device">
+  <diagram name="Página-1" id="UeT5eWWqkOcsrqtb8AUW">
+    <mxGraphModel dx="1036" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YwHEZ7aHF4ur9HsxNH-e-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="YwHEZ7aHF4ur9HsxNH-e-18" target="YwHEZ7aHF4ur9HsxNH-e-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="590" />
+              <mxPoint x="168" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YwHEZ7aHF4ur9HsxNH-e-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.531;entryY=-0.095;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="YwHEZ7aHF4ur9HsxNH-e-18" target="YwHEZ7aHF4ur9HsxNH-e-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="673" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YwHEZ7aHF4ur9HsxNH-e-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.545;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="YwHEZ7aHF4ur9HsxNH-e-18" target="YwHEZ7aHF4ur9HsxNH-e-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YwHEZ7aHF4ur9HsxNH-e-18" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Legislador&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Partido Politico : string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Departamento que representa : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Numero despacho : Int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Nombre : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Apellido : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Edad : Int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Casado : Boll&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&amp;nbsp;participarDebate() : virtual string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Presentar propuesta Legislativa() : virtual string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&amp;nbsp;votoLegislador () : virtual string&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="230" y="320" width="280" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="YwHEZ7aHF4ur9HsxNH-e-19" value="Senador" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="640" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YwHEZ7aHF4ur9HsxNH-e-20" value="- NumAsientoCamaraAlta : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="YwHEZ7aHF4ur9HsxNH-e-19" vertex="1">
+          <mxGeometry y="26" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YwHEZ7aHF4ur9HsxNH-e-21" value="+ presentarPropuestaLegislativa() : override void&lt;br&gt;+participarDebate() : override void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="YwHEZ7aHF4ur9HsxNH-e-19" vertex="1">
+          <mxGeometry y="52" width="290" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="YwHEZ7aHF4ur9HsxNH-e-23" value="Diputados" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="640" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YwHEZ7aHF4ur9HsxNH-e-25" value="- NumAsientoCamaraBaja&amp;nbsp; : Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="YwHEZ7aHF4ur9HsxNH-e-23" vertex="1">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YwHEZ7aHF4ur9HsxNH-e-24" value="+ presentarPropuestaLegislativa(): override void&lt;br&gt;+&amp;nbsp;participarDebate() : override void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="YwHEZ7aHF4ur9HsxNH-e-23" vertex="1">
+          <mxGeometry y="52" width="270" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="YwHEZ7aHF4ur9HsxNH-e-38" value="Parlamento" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="780" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="YwHEZ7aHF4ur9HsxNH-e-39" value="- Lista Legisladores []" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="YwHEZ7aHF4ur9HsxNH-e-38" vertex="1">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YwHEZ7aHF4ur9HsxNH-e-41" value="+ registrarSenador(string,int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="YwHEZ7aHF4ur9HsxNH-e-38" vertex="1">
+          <mxGeometry y="52" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YwHEZ7aHF4ur9HsxNH-e-53" value="+ mostrarTotal()&amp;nbsp;&lt;br&gt;+&amp;nbsp;registrarDiputado(string , int)&lt;br&gt;+&amp;nbsp;NumeroDespachoExistente(int)&lt;br&gt;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="YwHEZ7aHF4ur9HsxNH-e-38" vertex="1">
+          <mxGeometry y="78" width="240" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="YwHEZ7aHF4ur9HsxNH-e-46" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Hijo&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="165" y="608" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YwHEZ7aHF4ur9HsxNH-e-47" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Padre&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="280" y="538" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YwHEZ7aHF4ur9HsxNH-e-49" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Padre&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="510" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YwHEZ7aHF4ur9HsxNH-e-50" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Hijo&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="620" y="608" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YwHEZ7aHF4ur9HsxNH-e-51" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="465" y="748" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YwHEZ7aHF4ur9HsxNH-e-52" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;*&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="385" y="538" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

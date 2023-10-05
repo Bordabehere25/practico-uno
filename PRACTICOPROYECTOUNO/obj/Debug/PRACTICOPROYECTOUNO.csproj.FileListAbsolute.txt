@@ -1,0 +1,7 @@
+C:\Users\Usuario\OneDrive\Escritorio\analista\csharp\PRACTICOPROYECTOUNO\PRACTICOPROYECTOUNO\bin\Debug\PRACTICOPROYECTOUNO.exe.config
+C:\Users\Usuario\OneDrive\Escritorio\analista\csharp\PRACTICOPROYECTOUNO\PRACTICOPROYECTOUNO\bin\Debug\PRACTICOPROYECTOUNO.exe
+C:\Users\Usuario\OneDrive\Escritorio\analista\csharp\PRACTICOPROYECTOUNO\PRACTICOPROYECTOUNO\bin\Debug\PRACTICOPROYECTOUNO.pdb
+C:\Users\Usuario\OneDrive\Escritorio\analista\csharp\PRACTICOPROYECTOUNO\PRACTICOPROYECTOUNO\obj\Debug\PRACTICOPROYECTOUNO.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Escritorio\analista\csharp\PRACTICOPROYECTOUNO\PRACTICOPROYECTOUNO\obj\Debug\PRACTICOPROYECTOUNO.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\analista\csharp\PRACTICOPROYECTOUNO\PRACTICOPROYECTOUNO\obj\Debug\PRACTICOPROYECTOUNO.exe
+C:\Users\Usuario\OneDrive\Escritorio\analista\csharp\PRACTICOPROYECTOUNO\PRACTICOPROYECTOUNO\obj\Debug\PRACTICOPROYECTOUNO.pdb
