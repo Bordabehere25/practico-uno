@@ -15,6 +15,7 @@ namespace PRACTICOPROYECTOUNO
         public Parlamento()
         {
             listaLegisladores = new List<Legislador>();
+            
         }
 
 
